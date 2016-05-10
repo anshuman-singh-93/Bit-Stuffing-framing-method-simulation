@@ -1,0 +1,13 @@
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\bin\Debug\BitStuffing.exe.config
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\bin\Debug\BitStuffing.exe
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\bin\Debug\BitStuffing.pdb
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\MainWindow.g.cs
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\App.g.cs
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing_MarkupCompile.cache
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing_MarkupCompile.lref
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\MainWindow.baml
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing.g.resources
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing.Properties.Resources.resources
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing.csproj.GenerateResource.Cache
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing.exe
+C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\BitStuffing\obj\Debug\BitStuffing.pdb

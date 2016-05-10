@@ -1,0 +1,92 @@
+﻿<Window x:Class="BitStuffing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BitStuffing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="900">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="360"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock FontSize="30">
+                Bit Stuffing Method
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" >
+            <Canvas Name="bit_canvas" Height="360" Width="600" Background="Aquamarine" >
+
+                <Line X1="0" Y1="-300" X2="0" Y2="0"
+    Stroke="Black"
+    StrokeThickness="3"  Canvas.Left="50"  Canvas.Top="320" ></Line>
+
+                <Line X1="0" Y1="0" X2="500" Y2="0"
+    Stroke="Black"
+    StrokeThickness="3"  Canvas.Left="50"  Canvas.Top="320" ></Line>
+
+                <Line X1="50" Y1="-300" X2="50" Y2="0"
+    Stroke="Black"
+    StrokeThickness="3"  Canvas.Left="500"  Canvas.Top="320" ></Line>
+
+                <Image Name="comp1" Canvas.Left="25" Canvas.Top="10" Source="C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\aloha\bin\Debug\images\c.ico" Width="50" Height="50" />
+
+                <Image Name="comp2" Canvas.Left="525" Canvas.Top="10" Source="C:\Users\ansh\Documents\Visual Studio 2015\Projects\project\aloha\aloha\bin\Debug\images\c.ico" Width="50" Height="50" />
+
+            </Canvas>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" Orientation="Horizontal">
+
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock>Message</TextBlock>
+                <Separator Width="10" Background="Transparent"></Separator>
+                <TextBox Text="1001011001" Name="msg_box" Width="200" MaxLength="20"></TextBox>
+            </StackPanel>
+            <Separator Width="10" Background="Transparent"></Separator>
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock>Flag</TextBlock>
+                <Separator Width="10" Background="Transparent"></Separator>
+                <Separator Width="10" Background="Transparent" ></Separator>
+                <TextBox Name="flag_box" Width="100" MaxLength="8" Text="01111110"></TextBox>
+            </StackPanel>
+            <Separator Width="10" Background="Transparent"></Separator>
+
+            <StackPanel>
+                <Button  Name="start_btn" Height="30" Width="50" Click="Button_Click">Start</Button>
+            </StackPanel>
+            <Separator Width="10" Background="Transparent"></Separator>
+
+            <StackPanel Orientation="Horizontal">
+
+                <Button  Name="reset_btn" Height="30" Width="50" Click="reset_Click">Reset</Button>
+                <Separator Width="10" Background="Transparent"></Separator>
+                <Button  Name="pause_btn" Height="30" Width="50" Click="pause_Click">Pause</Button>
+
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <StackPanel Width="300" Height="360" Background="BlueViolet">
+                <TextBlock HorizontalAlignment="Center">log</TextBlock>
+                <ListView Width="300" Height="360" Name="log">
+                    
+                </ListView>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
